@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Menu</h1>
+    <div class="menu-item" id="burger">
+        <h2>Burger</h2>
+        <p>Delicious burger with lettuce, tomato, and cheese</p>
+        <button onclick="showPrice('burger')">Show Price</button>
+        <p id="burger-price" class="price">Price: $5.99</p>
+    </div>
+    <div class="menu-item" id="pizza">
+        <h2>Pizza</h2>
+        <p>Classic cheese pizza with your choice of toppings</p>
+        <button onclick="showPrice('pizza')">Show Price</button>
+        <p id="pizza-price" class="price">Price: $8.99</p>
+    </div>
+    <div class="menu-item" id="salad">
+        <h2>Salad</h2>
+        <p>Fresh salad with mixed greens, veggies, and dressing</p>
+        <button onclick="showPrice('salad')">Show Price</button>
+        <p id="salad-price" class="price">Price: $4.99</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
