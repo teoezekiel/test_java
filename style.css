@@ -2,10 +2,27 @@ body {
     font-family: Arial, sans-serif;
 }
 
+h1{
+    text-align: center;
+}
+
+h2{
+    background-color: rgb(214, 184, 144);
+    padding: 10px;
+    border-radius: 10px;
+}
+
 .menu-item {
-    margin-bottom: 20px;
+    background-color: #e76b6b;
+    border-radius: 10px;
+}
+
+.menu-item p{
+    padding-left: 1em;
 }
 
 .price {
     display: none;
+    padding-left: 1em;
+    padding-bottom: 1em;
 }
