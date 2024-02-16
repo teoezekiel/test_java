@@ -21,6 +21,34 @@ h2{
     padding-left: 1em;
 }
 
+.item{
+    display: flex;
+    min-width: 120px;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.item img{
+    width: 40%;
+    height: auto;
+    display: block;
+}
+
+.overlay{
+    position: absolute;
+    left: -120%;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(74, 72, 72, 0.5); /* Overlay background color */
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    transition: left 0.3s ease;
+    text-align:justify;
+}
+.item:hover .overlay {
+    left: 0;
+}
 .price {
     display: none;
     padding-left: 1em;
